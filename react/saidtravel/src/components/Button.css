@@ -1,5 +1,5 @@
 :root{
-    --primary: #fff;
+    --primary: rgb(163, 147, 147);
 }
 
 .btn{
@@ -12,7 +12,7 @@
 
 .btn--primary{
     background-color: var(--primary);
-    color: tomato;
+    color: #f1f1f1;
     border: 1px solid var(--primary);
 }
 
@@ -37,6 +37,6 @@
 .btn--larger:hover, .btn--medium:hover{
     transition: all 0.3s ease-out;
     background: #fff;
-    color: tomato;
+    color: #242424;
     transition: 250ms;
 }
