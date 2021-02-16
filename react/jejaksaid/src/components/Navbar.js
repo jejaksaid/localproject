@@ -26,7 +26,7 @@ function Navbar() {
     return (
         <>
         <nav className='navbar'>
-            <div className="navbar-container">
+            <div className="nav bd-container">
                 <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
                 <b>Jejak </b> Said
                 <i className="fab-fa-typo3"></i>
@@ -34,7 +34,7 @@ function Navbar() {
                 <div className="menu-icon">
                     <i className={click ? "fas fa-times" : 'fas fa-bars'} />
                 </div>
-                <ul className={click ? 'nav-menu active' : "nav-menu active"}>
+                <ul className={click ? 'nav__menu active' : "nav__menu active"}>
                     <li className="nav-item">
                         <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                             Home
