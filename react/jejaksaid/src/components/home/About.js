@@ -13,13 +13,13 @@ const items = [
       key: '2',
       icon: <i className="fas fa-desktop"></i>,
       title: 'Design & Prototyping',
-      content: 'I believe it is important to understand both design and development to achieve a successful user-facing product. By involving a front-end developer at the design & prototyping phase, technical challenges can be solved early, producing a more cohesive product in the most time efficient manner.',
+      content: 'I believe it is important to understand both design and development to achieve a successful user-facing product.',
     },
     {
       key: '3',
       icon: <i className="fas fa-desktop"></i>,
       title: 'WordPress Developer',
-      content: 'In many projects, my clients require the ability to manage the content of their website. WordPress is the world’s most popular content management system which I have many years of experience with. My focus when using WordPress is on ease of use and maintainability; making sure you can manage your content as simply and quickly as possible.',
+      content: 'My focus when using WordPress is on ease of use and maintainability; making sure you can manage your content as simply and quickly as possible.',
     },
   ]
 
@@ -42,7 +42,7 @@ function AppAbout() {
                                 <div className="icon">
                                     {item.icon}
                                 </div>
-                                <h3>{item.title}</h3>
+                                <h1><b>{item.title}</b></h1>
                                 <p>{item.content}</p>
                             </div>
                         </Col>
