@@ -5,21 +5,21 @@ import { Row, Col } from 'antd';
 const items = [
     {
       key: '1',
-      icon: <i className="fas fa-chart-pie"></i>,
-      title: 'High Performance',
-      content: 'cu nostro dissentias consectetuer mel. Ut admodum conceptam mei, cu eam tation fabulas abhorreant. His ex mandamus.',
+      icon: <i className="fas fa-desktop"></i>,
+      title: 'Front-end Developer',
+      content: 'I use HTML, CSS, and JavaScript to produce responsive websites and web apps that provide users the best and most appropriate experience suited to their device and browser.',
     },
     {
       key: '2',
       icon: <i className="fas fa-desktop"></i>,
-      title: 'Flat Design',
-      content: 'cu nostro dissentias consectetuer mel. Ut admodum conceptam mei, cu eam tation fabulas abhorreant. His ex mandamus.',
+      title: 'Design & Prototyping',
+      content: 'I believe it is important to understand both design and development to achieve a successful user-facing product. By involving a front-end developer at the design & prototyping phase, technical challenges can be solved early, producing a more cohesive product in the most time efficient manner.',
     },
     {
       key: '3',
-      icon: <i className="fas fa-database"></i>,
-      title: 'Simplified Workflow',
-      content: 'cu nostro dissentias consectetuer mel. Ut admodum conceptam mei, cu eam tation fabulas abhorreant. His ex mandamus.',
+      icon: <i className="fas fa-desktop"></i>,
+      title: 'WordPress Developer',
+      content: 'In many projects, my clients require the ability to manage the content of their website. WordPress is the world’s most popular content management system which I have many years of experience with. My focus when using WordPress is on ease of use and maintainability; making sure you can manage your content as simply and quickly as possible.',
     },
   ]
 
