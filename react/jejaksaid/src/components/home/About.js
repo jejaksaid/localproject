@@ -1,9 +1,55 @@
 import React from 'react'
 
-const AppAbout = () => {
+import { Row, Col } from 'antd';
+
+const items = [
+    {
+      key: '1',
+      icon: <i className="fas fa-chart-pie"></i>,
+      title: 'High Performance',
+      content: 'cu nostro dissentias consectetuer mel. Ut admodum conceptam mei, cu eam tation fabulas abhorreant. His ex mandamus.',
+    },
+    {
+      key: '2',
+      icon: <i className="fas fa-desktop"></i>,
+      title: 'Flat Design',
+      content: 'cu nostro dissentias consectetuer mel. Ut admodum conceptam mei, cu eam tation fabulas abhorreant. His ex mandamus.',
+    },
+    {
+      key: '3',
+      icon: <i className="fas fa-database"></i>,
+      title: 'Simplified Workflow',
+      content: 'cu nostro dissentias consectetuer mel. Ut admodum conceptam mei, cu eam tation fabulas abhorreant. His ex mandamus.',
+    },
+  ]
+
+function AppAbout() {
     return (
-        <div>
-            <h1>About Us</h1>
+        <div className='block aboutBlock'>
+            <div className="container-fluid">
+                <div className="titleHolder">
+                    <h2>About Me</h2>
+                    <p>interested in frontend and i can build a simple website in a day</p>
+                </div>
+                <div className="contentHolder">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, autem excepturi. Minus at commodi accusamus alias vel illum quisquam ipsam natus fugiat omnis amet expedita debitis, modi doloribus, harum excepturi!</p>
+                </div>
+                <Row gutter={[16, 16]}>
+                    {items.map(item => {
+                        return (
+                        <Col span={8} key={item.key}>
+                            <div className="content">
+                                <div className="icon">
+                                    {item.icon}
+                                </div>
+                                <h3>{item.title}</h3>
+                                <p>{item.content}</p>
+                            </div>
+                        </Col>
+                        );
+                    })};
+                </Row>
+            </div>
         </div>
     )
 }
