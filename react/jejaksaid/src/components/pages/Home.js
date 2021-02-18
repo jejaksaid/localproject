@@ -1,9 +1,9 @@
 import React from 'react';
 
-import AppHero from '../components/home/Hero';
-import AppAbout from '../components/home/About';
-import AppFeature from '../components/home/Feature';
-import AppWorks from '../components/home/Works';
+import AppHero from '../home/Hero';
+import AppAbout from '../home/About';
+import AppFeature from '../home/Feature';
+import AppWorks from '../home/Works';
 
 function AppHome() {
     return (
