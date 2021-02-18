@@ -13,62 +13,65 @@ const { Meta } = Card;
 
 function AppFeature() {
     return (
-        <div className='block featureBlock'>
+        <div className='block featureBlock bgGray'>
             <div className="container-fluid">
-            <Row gutter={[16, 16]}>
-                <Col span={8}> 
-                    <Card
-                        hoverable
-                        cover={<img alt="Modern Design" src={image1} />}
-                    >
-                    <Meta title="Modern Design" />
-                    </Card> 
-                </Col>
-                <Col span={8}> 
-                    <Card
-                        hoverable
-                        cover={<img alt="Cleam Design" src={image2} />}
-                    >
-                    <Meta title="Clean Design" />
-                    </Card> 
-                </Col>
-                <Col span={8}> 
-                    <Card
-                        hoverable
-                        cover={<img alt="Great Support" src={image3} />}
-                    >
-                    <Meta title="Great Support" />
-                    </Card> 
-                </Col>
-                <Col span={8}> 
-                    <Card
-                        hoverable
-                        cover={<img alt="Easy Customize " src={image4} />}
-                    >
-                    <Meta title="Easy Customize " />
-                    </Card> 
-                </Col>
-                <Col span={8}> 
-                    <Card
-                        hoverable
-                        cover={<img alt="Unlimited Features" src={image5} />}
-                    >
-                    <Meta title="Unlimited Features" />
-                    </Card> 
-                </Col>
-                <Col span={8}> 
-                    <Card
-                        hoverable
-                        cover={<img alt="Advanced Options" src={image6} />}
-                    >
-                    <Meta title="Advanced Options" />
-                    </Card> 
-                </Col>
-            </Row>
+                <div className='titleHolder'>
+                    <h2>Key Features and Benefits</h2>
+                    <p>Obcaecati consequatur libero repudiandae, aperiam itaque laborum!</p>
+                </div>
+                <Row gutter={[16, 16]}>
+                    <Col span={8}> 
+                        <Card
+                            hoverable
+                            cover={<img alt="Modern Design" src={image1} />}
+                        >
+                        <Meta title="Modern Design" />
+                        </Card> 
+                    </Col>
+                    <Col span={8}> 
+                        <Card
+                            hoverable
+                            cover={<img alt="Cleam Design" src={image2} />}
+                        >
+                        <Meta title="Clean Design" />
+                        </Card> 
+                    </Col>
+                    <Col span={8}> 
+                        <Card
+                            hoverable
+                            cover={<img alt="Great Support" src={image3} />}
+                        >
+                        <Meta title="Great Support" />
+                        </Card> 
+                    </Col>
+                    <Col span={8}> 
+                        <Card
+                            hoverable
+                            cover={<img alt="Easy Customize " src={image4} />}
+                        >
+                        <Meta title="Easy Customize " />
+                        </Card> 
+                    </Col>
+                    <Col span={8}> 
+                        <Card
+                            hoverable
+                            cover={<img alt="Unlimited Features" src={image5} />}
+                        >
+                        <Meta title="Unlimited Features" />
+                        </Card> 
+                    </Col>
+                    <Col span={8}> 
+                        <Card
+                            hoverable
+                            cover={<img alt="Advanced Options" src={image6} />}
+                        >
+                        <Meta title="Advanced Options" />
+                        </Card> 
+                    </Col>
+                </Row>
             </div>
-
         </div>
     )
 }
 
-export default AppFeature
+export default AppFeature;
