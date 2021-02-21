@@ -1,13 +1,15 @@
 import React from 'react';
+import Navbar from './components/Navbar';
 import './App.css';
+
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>this is h1</h1>
-      </header>
-    </div>
+    <><Router>
+        <Navbar />
+      </Router>
+    </>
   );
 }
 
