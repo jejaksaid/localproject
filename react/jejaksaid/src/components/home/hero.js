@@ -38,7 +38,7 @@ function AppHero() {
       <div className="container-fluid">
         <div className="titleHolder">
           <h2>Successfull Front-end Developer</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dignissimos ut cupiditate, corporis veniam praesentium cum temporibus dolores quaerat, atque deserunt consequuntur cumque rerum dolore tempora. Accusamus est architecto hic.</p>
+          <p>Hi. I’m Said, a freelance Front-end Developer experience creating successful websites.</p>
         </div>
         <Row gutter={[16, 16]}>
           <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
