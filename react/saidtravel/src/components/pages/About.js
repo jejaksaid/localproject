@@ -6,15 +6,15 @@ import Helmet from 'react-helmet';
 //     return <h1 className='products'>Products</h1>
 // }
 
-function Products() {
+function About() {
     return(
         <>
             <Helmet>
-                <title>SaidTravel | Products</title>
+                <title>SaidTravel | About</title>
             </Helmet>
-            <h1 className='products'>Products Page</h1>
+            <h1 className='about'>About Page</h1>
         </>
     )
 }
 
-export default Products;
+export default About;
