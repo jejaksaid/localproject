@@ -42,47 +42,29 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link
-                to='/services'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
+              <Link to='/portfolio' className='nav-links' onClick={closeMobileMenu}>
                 Portfolio
               </Link>
             </li>
             <li className='nav-item'>
-              <Link
-                to='/products'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
+              <Link to='/products' className='nav-links' onClick={closeMobileMenu} >
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link to='/testimonials'
-                    className='nav-links'
-                    onClick={closeMobileMenu}
-                    >
+              <Link to='/testimonials' className='nav-links' onClick={closeMobileMenu} >
                 Testimonials
               </Link>
             </li>
             <li className="nav-item">
-              <Link to='/articles'
-                    className='nav-links'
-                    onClick={closeMobileMenu}
-                    >
+              <Link to='/articles' className='nav-links' onClick={closeMobileMenu} >
                 Articles
               </Link>
             </li>
 
 
             <li>
-              <Link
-                to='/sign-up'
-                className='nav-links-mobile'
-                onClick={closeMobileMenu}
-              >
+              <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}  >
                 Sign Up
               </Link>
             </li>

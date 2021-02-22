@@ -6,15 +6,15 @@ import Helmet from 'react-helmet';
 //     return <h1 className='services'>Services</h1>
 // }
 
-function Services() {
+function Portfolio() {
     return(
         <>
             <Helmet>
                 <title>SaidTravel | Portfolio</title>
             </Helmet>
-                <h1 className='services'>Portfolio</h1>
+                <h1 className='portfolio'>Portfolio</h1>
         </>
     )
 }
 
-export default Services;
+export default Portfolio;
