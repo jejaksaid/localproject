@@ -10,7 +10,7 @@ function Home() {
     return (
         <>
             <Helmet>
-                <title>SaidTravel</title>
+                <title>Jejak Said</title>
             </Helmet>
             <HeroSection />
             <Cards />

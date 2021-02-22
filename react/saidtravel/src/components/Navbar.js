@@ -29,7 +29,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            <b>Said</b>Travel
+            <b>Jejak</b>
             <i className='fab fa-typo3' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -47,7 +47,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Services
+                Portfolio
               </Link>
             </li>
             <li className='nav-item'>
@@ -56,9 +56,26 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Products
+                About
               </Link>
             </li>
+            <li className="nav-item">
+              <Link to='/testimonials'
+                    className='nav-links'
+                    onClick={closeMobileMenu}
+                    >
+                Testimonials
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to='/articles'
+                    className='nav-links'
+                    onClick={closeMobileMenu}
+                    >
+                Articles
+              </Link>
+            </li>
+
 
             <li>
               <Link

@@ -10,9 +10,9 @@ function Services() {
     return(
         <>
             <Helmet>
-                <title>SaidTravel | Services</title>
+                <title>SaidTravel | Portfolio</title>
             </Helmet>
-                <h1 className='services'>Services</h1>
+                <h1 className='services'>Portfolio</h1>
         </>
     )
 }
