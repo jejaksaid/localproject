@@ -6,7 +6,7 @@ function Articles() {
     return (
         <> 
             <Helmet>
-                <title></title>
+                <title>JejakSaid | Article</title>
             </Helmet>
             <h1 className='articles'>Articles Page</h1>
         </>
