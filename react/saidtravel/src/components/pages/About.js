@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../App.css';
-import Helmet from 'react-helmet';
+import { Helmet } from 'react-helmet';
 
 // export default function Products() {
 //     return <h1 className='products'>Products</h1>

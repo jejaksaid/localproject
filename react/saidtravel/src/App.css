@@ -5,7 +5,7 @@
   font-family: "PT Sans", sans-serif;
 }
 
-.home, .about, .portfolio, .sign-up{
+.home, .about, .portfolio, .testimonials, .articles, .sign-up{
   display: flex;
   height: 90vh;
   align-items: center;
@@ -23,6 +23,24 @@
 }
 
 .portfolio {
+  background-image: url();
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #555555;
+  font-size: 6rem;
+}
+
+.testimonials {
+  background-image: url();
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #555555;
+  font-size: 6rem;
+}
+
+.articles {
   background-image: url();
   background-position: center;
   background-size: fill;
