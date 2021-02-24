@@ -20,8 +20,7 @@ function Cards() {
                         <CardItem 
                             src="images/performance.jpg" 
                             text="Make your website fast, easy to find, and reach the widest audience possible."
-                            label="Performance, SEO, &
-                            accessibility testing" 
+                            label="Performance" 
                             path="/" 
                         />
 
