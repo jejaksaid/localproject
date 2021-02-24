@@ -10,7 +10,7 @@ function About() {
     return(
         <>
             <Helmet>
-                <title>SaidTravel | About</title>
+                <title>JejakSaid | About</title>
             </Helmet>
             <h1 className='about'>About Page</h1>
         </>
