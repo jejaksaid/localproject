@@ -11,22 +11,30 @@ function Cards() {
                     <div className="cards__wrapper">
                         <ul className="cards__items">
                         <CardItem 
-                            src="images/img-9.jpg" 
-                            text="Explore the hidden waterfall deep inside the Amazon Jungle" 
-                            label="Adventure" 
-                            path="/services"
+                            src="images/front.jpg" 
+                            text="Responsive websites built for an optimal user experience that achieves your business goals." 
+                            label="Front-end development" 
+                            path="/"
                         />
 
                         <CardItem 
-                            src="images/img-2.jpg" 
-                            text="Travel through the Island of Bali in a Private Cruise"
-                            label="Luxury" 
-                            path="/services" 
+                            src="images/performance.jpg" 
+                            text="Make your website fast, easy to find, and reach the widest audience possible."
+                            label="Performance, SEO, &
+                            accessibility testing" 
+                            path="/" 
+                        />
+
+                        <CardItem 
+                            src="images/wordpress.png" 
+                            text="Manage your website using the web's most popular content management system." 
+                            label="WordPress website" 
+                            path="/"
                         />
 
                         
                     </ul>
-
+{/* 
                     <ul className="cards__items">
                         <CardItem 
                             src="images/img-3.jpg" 
@@ -48,7 +56,7 @@ function Cards() {
                             label="Adrenaline" 
                             path="/services" 
                         />
-                    </ul>
+                    </ul> */}
 
                     </div>
                 </div>
