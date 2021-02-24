@@ -13,7 +13,7 @@ function Home() {
                 <title>Jejak Said</title>
                 <meta name="description" content="This is home description page" />
             </Helmet>
-            <HeroSection />
+            {/* <HeroSection /> */}
             <Cards />
 
         </>
