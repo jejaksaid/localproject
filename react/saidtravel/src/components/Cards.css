@@ -1,3 +1,9 @@
+/* base */
+:root{
+  --small-font: 1.5rem;
+  --big-font: 3.5rem;
+}
+
 .cards {
   padding: 4rem;
   background: #fff;
@@ -5,6 +11,13 @@
 
 h1,p {
   text-align: center;
+}
+h1{
+  font-size: var(--big-font);
+}
+
+p{
+  font-size: var(--small-font);
 }
 
 .cards__container {
