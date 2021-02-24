@@ -11,6 +11,7 @@ function Portfolio() {
         <>
             <Helmet>
                 <title>SaidTravel | Portfolio</title>
+                <meta name="description" content="This is home portfolio page" />
             </Helmet>
                 <h1 className='portfolio'>Portfolio</h1>
         </>

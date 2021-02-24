@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Helmet from 'react-helmet';
 import About from './components/pages/About';
 import Portfolio from './components/pages/Portfolio';
 import Testimonials from './components/pages/Testimonials';
@@ -15,6 +16,7 @@ function App() {
     <>
       <Router>
         <Navbar />
+        <Helmet />
         <Switch>
           <Route path='/' exact component={Home}  />
           <Route path='/portfolio' component={Portfolio} />
