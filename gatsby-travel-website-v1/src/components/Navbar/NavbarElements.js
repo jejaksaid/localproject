@@ -61,7 +61,7 @@ export const NavMenu = styled.ul`
 
   @media screen and (max-width: 960px) {
       display: flex;
-      direction: column;
+      flex-direction: column;
       width: 100%;
       height: 90vh;
       position: absolute;
@@ -71,6 +71,15 @@ export const NavMenu = styled.ul`
         background: #fff;
   }
 `
+
+
+export const NavItem = styled.li`
+  height: 80px;
+  @media screen and (max-width: 960px) {
+      width: 100%;
+  }
+`
+
 
 export const NavLinks = styled(Link)`
   color: #141414;
