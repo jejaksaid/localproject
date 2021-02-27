@@ -3,7 +3,7 @@ import './HeroSection.css'
 
 function HeroSection() {
     return(
-        <div className='hero-containter'>
+        <div className='hero-container'>
             <h1>Travel More</h1>
             <p>Plan your next trip today</p>
             <div className="hero-btns">
