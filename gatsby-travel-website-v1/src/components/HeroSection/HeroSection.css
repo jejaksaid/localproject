@@ -42,3 +42,10 @@
       font-size: 30px;
     }
   }
+
+  @media screen and (max-width: 678px) {
+    .hero-container > h1, p {
+      justify-content: center;
+      align-items: center;
+    }
+  }
