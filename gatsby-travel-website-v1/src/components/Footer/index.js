@@ -11,15 +11,15 @@ const Footer = () => {
                         <SocialIcon />
                         EXPLOR
                     </SocialLogo>
-                    <WebsiteRights>EXPLOR copyright {new Date().getFullYear()}</WebsiteRights>
+                    <WebsiteRights>EXPLOR © {new Date().getFullYear()}</WebsiteRights>
                     <SocialIcons>
                         <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
-                            <Facebook />
+                            <FaFacebook />
                         </SocialIconLink>
                         <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
                             <FaInstagram />
                         </SocialIconLink>
-                        <SocialIconLink href='/' target='_blank' aria-label='Youtube'>
+                        <SocialIconLink href='/' target='_blank' aria-label='Youtube' rel='noopener noreferrer'>
                             <FaYoutube />
                         </SocialIconLink>
                         <SocialIconLink href='/' target='_blank' aria-label='Twitter'>
@@ -34,3 +34,5 @@ const Footer = () => {
         </FooterContainer>
     )
 }
+
+export default Footer 
