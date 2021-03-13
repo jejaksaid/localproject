@@ -16,7 +16,7 @@ body {
 }
 
 .wrapper {
-    max-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -58,7 +58,45 @@ nav .logo {
 
 /* header */
 .header-container {
-    background: #E5E5E5;
+    background: #f5a05c  url("/assets/images/bg-shape.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    height: calc(100vh - 72px);
+    display: flex;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+    color: #021718;
+    margin-bottom: 24px;
+}
+
+header p {
+    font-size: 24px;
+    line-height: 42px;
+    color: #021718;
+    width: 418px;
+    margin-bottom: 48px;
+}
+
+header a {
+    color: #FFFFFA;
+    font-size: 24px;
+    text-decoration: none;
+
+    background: #01847f;
+    border-radius: 8px;
+    padding: 12px 48px;
 }
 
 /* hidden items */
